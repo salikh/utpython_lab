@@ -2,10 +2,9 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 # This describes dependency on the prog-edu-assistant.
-git_repository(
+local_repository(
     name = "prog_edu_assistant",
-    commit = "v0.4",
-    remote = "https://github.com/google/prog-edu-assistant",
+    path = "../prog-edu-assistant",
 )
 
 http_archive(
