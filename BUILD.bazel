@@ -20,6 +20,7 @@ notebooks = [
     "//1:1-1",
     "//1:1-2",
     "//4:4-1",
+    "//4:4-1_student_data_tar",
 ]
 
 colab_notebooks = [
